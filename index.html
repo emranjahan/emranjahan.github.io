@@ -27,6 +27,14 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!--Linkedin Modification CSS File -->
+  <style>
+    .linkedin-badge-wrapper {
+      transform: scale(1.5); /* Increase size: 1.5 = 150% */
+      transform-origin: top left;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: SnapFolio
   * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
@@ -535,13 +543,13 @@
               <h3><i class="bi bi-award me-2"></i>Certifications</h3>
 
               <div class="resume-item">
-                <h4>AWS Certified Solutions Architect - Professional</h4>
-                <h5>2023</h5>
+                <h4>Basic Computer Program and Application - Professional</h4>
+                <h5>2022</h5>
               </div>
 
               <div class="resume-item">
-                <h4>Google Cloud Professional Architect</h4>
-                <h5>2022</h5>
+                <h4>Professional Training in Freelancing and Digital Marketing</h4>
+                <h5>2025</h5>
               </div>
             </div>
           </div>
@@ -1019,8 +1027,35 @@
             <div class="contact-form">
               <h3>Get In Touch</h3>
               <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              
+              <!--LinkedIn Script-->
+                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+                
+                <div class="linkedin-badge-wrapper">
+                  <div class="badge-base LI-profile-badge" 
+                  data-locale="en_US" 
+                  data-size="large" 
+                  data-theme="dark" 
+                  data-type="HORIZONTAL" 
+                  data-vanity="md-emran-jahan" 
+                  data-version="v1">
+                  <a class="badge-base__link LI-simple-link" href="https://bd.linkedin.com/in/md-emran-jahan?trk=profile-badge">
+                    <!-- Md. Emran Jahan -->
+                  </a>
+                </div>
+              
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
+
+                </div>
+
+                <!-- this section is for the contact form. -->
+                <!-- I have Hidden it and replace it with Linkedin Script. -->
+                <!-- PHP/Emailing will not work on static website server. -->
+                <!-- Remove comment from this section if you want to use the contact form.
+
+
+                <form action="forms/contact.php" method="post" class="php-email-form">
+
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -1049,6 +1084,8 @@
 
                 </div>
               </form>
+
+            -->
 
             </div>
           </div>
