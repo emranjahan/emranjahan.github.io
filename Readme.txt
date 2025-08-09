@@ -1,6 +1,9 @@
-Thanks for downloading this template!
+Thanks for visiting my github profile!
 
-Template Name: SnapFolio
-Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Author: Md. Emran Jahan
+Email: emranjahan7@gmail.com
+
+This is open for everyone.
+You can download it and can use for your static website.
+No PHP or other server side program is used here.
+It is just writen with html, css and javascript.
